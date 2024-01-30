@@ -118,6 +118,7 @@ transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 /* home section */
 #home {
 	background: url('../images/home-bg.jpg') 50% 0 repeat-y fixed;
+	background-size: cover;
 	color: #ffffff;
 	display: -webkit-box;
 	display: -webkit-flex;
@@ -129,6 +130,7 @@ transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 	align-items: center;
 	height: 100vh;
 	text-align: center;
+	
 }
 #home h2 {
 	letter-spacing: 2px;
